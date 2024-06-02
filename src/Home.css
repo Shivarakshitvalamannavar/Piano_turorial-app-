@@ -1,0 +1,22 @@
+/* Home.css */
+.over {
+    position: absolute;
+    top: 35%; /* Adjust the top value to increase the space between text and buttons */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 20px; /* Add margin at the bottom to create space */
+  }
+
+.musical{
+  font-size: 60px;
+  font-family: 'Blackadder ITC', cursive;
+  /* font-style: italic; */
+}
+  
+h1 {
+    color: white;
+  }
+  
+  

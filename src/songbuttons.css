@@ -1,0 +1,16 @@
+/* SongButtons.css */
+.song-buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+  }
+  
+  .song-buttons-row {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    margin-bottom: 10px; /* Add spacing between each row */
+  }
+  

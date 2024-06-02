@@ -1,0 +1,11 @@
+.song-button {
+  font-size: 40px;
+  padding: 20px 40px;
+  background-color: black;
+  color: white;
+  margin: 5px;
+}
+
+.song-button:active {
+  color: gold;
+}

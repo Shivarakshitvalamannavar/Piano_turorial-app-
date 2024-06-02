@@ -1,0 +1,31 @@
+.key {
+  background-color: white;
+  height: 320px;
+  width: 70px;
+  border: 2px solid black;
+}
+
+.key.flat {
+  position: relative;
+  background-color: black;
+  margin-left: -17px;
+  margin-right: -17px;
+  height: 210px;
+  width: 30px;
+  z-index: 2;
+}
+
+.key.pressed, .key.flat.pressed {
+  background-color: #00d8ff;
+}
+
+.key-text {
+  position: relative;
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 250px;
+  pointer-events: none;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+}

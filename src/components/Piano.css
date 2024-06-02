@@ -1,0 +1,82 @@
+/* Piano.css */
+.piano {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+}
+
+.piano-container {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; /* Set a higher z-index for the Piano component */
+}
+
+/* .note {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  margin-bottom: 690px;
+  text-align: center;
+  color: white;
+  padding-left: 33%;
+  z-index: 2;
+} */
+
+.over {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  top:-100px;
+  z-index: 1;
+    font-size: 30px;
+    font-family: 'Blackadder ITC', cursive;
+    /* font-style: italic; */
+}
+
+.instruct
+{
+  color:gold;
+  font-size: 18px;
+}
+
+.HomeButton {
+  font-size: 20px;
+  padding: 5px 20px;
+  background-color: grey;
+  color: white;
+  margin: 5px;
+  position: relative;
+  top: 600px;
+  left: 50%px;
+}
+
+.HomeButton:active{
+  color:cyan;
+  background-color: darkgrey;
+}
+
+h2
+{
+  color: white;
+  text-align: center;
+  
+}
+
+.note {
+  position: absolute;
+  top: calc(50% - 300px); 
+  left: 50px;
+  text-align: center;
+  color: white;
+  padding-left: 33%;
+  z-index: 2;
+  display: flex;
+  width: max-content;
+  align-items: center;
+  
+}
+
+
